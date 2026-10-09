@@ -1,0 +1,142 @@
+/* Box Sizing Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    text-align: center
+}
+
+/* Navigation Flexbox */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Cards */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Features Grid */
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Button */
+
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005ea6;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-btn {
+  background-color: #8e0000;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+.delete-btn:hover {
+  background-color: #6b0000;
+}
