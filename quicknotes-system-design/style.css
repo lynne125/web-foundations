@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+#status {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.delete-btn {
+    background-color: darkred;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
